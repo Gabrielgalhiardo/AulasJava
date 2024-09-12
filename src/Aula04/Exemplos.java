@@ -15,7 +15,7 @@ public class Exemplos {
         //exemplo 2
         System.out.println("---------------------------------Exemplo-2---------------------------");
 
-        String corSemafaro = "vermelha";
+        String corSemafaro = "vermelho";
         if (corSemafaro == "Verde" || corSemafaro == "verde") {
             System.out.println("Pode passar");
         } else {
@@ -75,16 +75,52 @@ public class Exemplos {
         System.out.println("Você é " + maioridade);
 
         System.out.println("---------------------------------Exemplo-5---------------------------");
-        float preco= 90;
+        float preco = 90;
         float desconto;
-       desconto = preco>80 ? 0.25F : 0;
-        System.out.println("O valor final do produto com desconto = " + (preco - preco*desconto) + "Reais");
+        desconto = preco > 80 ? 0.25F : 0;
+        System.out.println("O valor final do produto com desconto = " + (preco - preco * desconto) + "Reais");
 
-       //if (preco>80){
-          // System.out.println("O produto custa = " + preco + " Reais\nCom desconto = 25%" + "\nValor final = " + (preco - preco*desconto) + " Reais");
-      // }else {
+        //if (preco>80){
+        // System.out.println("O produto custa = " + preco + " Reais\nCom desconto = 25%" + "\nValor final = " + (preco - preco*desconto) + " Reais");
+        // }else {
         //   System.out.println("O produto ficou no valor de = " + (preco - preco*desconto) + "Reais");
-     //  }
+        //  }
+        System.out.println("---------------------------------Exemplo-6---------------------------");
+
+        corSemafaro = "amarelo";
+        switch (corSemafaro){
+            case "verde","Verde":
+                System.out.println("siga!");
+                break;
+            case "amarelo","Amarelo":
+                System.out.println("Atenção!");
+                break;
+            case "vermelho","Vermelha","vermelha":
+                System.out.println("Pare!");
+                break;
+            default:
+                System.out.println("Cor invalida");
+        }
+
+        System.out.println("---------------------------------Exemplo-6---------------------------");
+
+        System.out.println("Escolha a comida que voce quer pedir\nDigite 1 para pizza\nDigite 2 para hambuguer\nDigite 3 para macarrao\n");
+        int escolhaDoCliente = 1;
+        System.out.println("Você selecionou a opção = " + escolhaDoCliente + "\n");
+        switch (escolhaDoCliente){
+            case 1:
+                System.out.println("Estamos com falta de pizza, pois o Igor comeu TODAS, desculpe pelo transtorno peço que escolha outro item.");
+                break;
+            case 2:
+                System.out.println("Iremos enviar o seu hamburguer.");
+                break;
+            case 3:
+                System.out.println("Iremos enviar o seu macarrao.");
+                break;
+            default:
+                System.out.println("Verifique o menu novamente, pois não ofertamos essa escolha.");
+        }
+
 
     }
 }
