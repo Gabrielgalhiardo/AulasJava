@@ -26,6 +26,7 @@ public class Exercicio7 {
             default:
                 System.out.println("Numero invalido");
         }
+        scanner.close();
 
     }
 }

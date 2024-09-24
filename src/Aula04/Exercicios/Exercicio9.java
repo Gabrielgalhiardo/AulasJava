@@ -9,9 +9,7 @@ public class Exercicio9 {
         float hora = scanner.nextFloat();
         if (hora > 5 && hora <12){
             System.out.println("Ta cedinhoo!");
-
         }
-
-
+        scanner.close();
     }
 }
