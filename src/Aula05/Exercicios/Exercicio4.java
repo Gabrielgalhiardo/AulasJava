@@ -4,15 +4,14 @@ import java.util.Scanner;
 
 public class Exercicio4 {
     public static void main(String[] args) {
-        int numeroEscolhido;
+        int numeroPrimo;
         
         Scanner scanner = new Scanner(System.in);
-        numeroEscolhido = scanner.nextInt();
+        numeroPrimo = scanner.nextInt();
 
-        for (int i = numeroEscolhido; i % 2 == 0 ; i++) {
-
+        }
             
         }
         
-    }
-}
+
+

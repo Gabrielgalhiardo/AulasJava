@@ -18,6 +18,7 @@ public class Exercicio3 {
 
         }while (i > 1);
         System.out.println("O resultado foi: " + numero);
+        scanner.close();
 
 
     }
