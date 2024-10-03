@@ -11,12 +11,12 @@ public class Exercicio02 {
         usuario = scanner.nextLine();
         for (int i = 0; i < letras.length; i++) {
            if (letras[i].equals (usuario)){
-               System.out.println("Voce escreveu uma letra que esta presente neste vetor\nno vetor de numero " + i);
+
                break;
            }
-
+//colocar uama string e ficar mudando de positivo e negativo
         }
-        System.out.println("Valor nao encontrado em nunhum dos vetores");
+
 
     }
 }
