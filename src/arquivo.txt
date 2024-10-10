@@ -1,0 +1,4 @@
+texto escrito no arquivo com buffer
+texto escrito no arquivo com buffer
+texto escrito no arquivo com buffer
+texto escrito no arquivo com buffer
