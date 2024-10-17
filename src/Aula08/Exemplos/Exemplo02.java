@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Exemplo02 {
     public static void main(String[] args) {
         try {
-            FileWriter fileWriter = new FileWriter( "src\\arquivo.txt");
+            FileWriter fileWriter = new FileWriter( "src\\arquivoo.txt");
             fileWriter.write("texto a ser gravado no arquivo");
             fileWriter.close();
         } catch (IOException e) {

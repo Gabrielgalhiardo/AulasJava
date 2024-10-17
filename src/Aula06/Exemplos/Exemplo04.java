@@ -18,7 +18,7 @@ public class Exemplo04 {
             vetor[i] =scanner.nextInt();
             mostraValor += vetor[i];
             mostraValor += i< vetor.length -1 ? "," :"}";
-        }
+    }
 
         System.out.println(mostraValor);
     }

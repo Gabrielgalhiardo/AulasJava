@@ -1,4 +1,4 @@
 package Aula08.Exercicios;
 
-public class Exercicio1 {
+public class Exercicio02 {
 }
