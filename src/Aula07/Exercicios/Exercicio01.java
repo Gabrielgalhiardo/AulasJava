@@ -4,7 +4,8 @@ public class Exercicio01 {
     public static void main(String[] args) {
         funcaoQueImprimeUmMensagem();
     }
+
     static void funcaoQueImprimeUmMensagem(){
-        System.out.println("Bem-vndo ao sistema!");
+        System.out.println("Bem-vindo ao sistema!");
     }
 }
