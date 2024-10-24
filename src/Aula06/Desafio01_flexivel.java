@@ -2,7 +2,7 @@ package Aula06;
 
 import java.util.Scanner;
 
-public class Desafio0_flexivel {
+public class Desafio01_flexivel {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

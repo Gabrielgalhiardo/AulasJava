@@ -9,10 +9,10 @@ public class Exercicio04 {
         float[] notas = new float[4];
         for (int i = 0; i < notas.length; i++) {
             System.out.println("Digite a " + i + "° nota");
-            notas[i]= scanner.nextFloat();
+            notas[i] = scanner.nextFloat();
             media += notas[i];
         }
-        System.out.println("Sua média final é igual a: " + (media/numDeNotas) );
+        System.out.println("Sua média final é igual a: " + (media / numDeNotas));
 
     }
 }
