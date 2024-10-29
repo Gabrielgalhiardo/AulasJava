@@ -19,6 +19,7 @@ public class Desafio02_flexivel {
             System.out.println("\t3 - Para atualizar um usuários");
             System.out.println("\t4 - Para deletar um usuários");
             System.out.println("\t5 - Para sair do programa");
+
             opcao = scanner.nextInt();
             scanner.nextLine();
 
@@ -26,19 +27,13 @@ public class Desafio02_flexivel {
                 case 1:
                     exibirCadastro(cabecario);
                     break;
-
                 case 2:
                    cadrastrarUsuario(scanner);
                     break;
-
                 case 3:
-
                     break;
-
                 case 4:
-
                     break;
-
                 case 5:
                     System.out.println("Fim do programa");
                     scanner.close();
@@ -86,8 +81,6 @@ public class Desafio02_flexivel {
         }
         System.out.println(tabela);
     }
-    private static void deletarUsuario (){
-        matrizCadastro;
+
 
     }
-}
