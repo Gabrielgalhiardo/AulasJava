@@ -16,7 +16,7 @@ public class Exercicio8 {
             }
 
         }
-        System.out.println("Você encolheu " +pares+ " numeros pares.\nE escolheu " +impares+ " numeros impares" );
+        System.out.println("Você escolheu " +pares+ " numeros pares.\nE escolheu " +impares+ " numeros impares" );
         scanner.close();
     }
 }
