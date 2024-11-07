@@ -9,8 +9,6 @@ public class Exercicio3 {
         Scanner scanner = new Scanner(System.in);
         numero = scanner.nextInt();
         i = numero;
-
-
         do {
             i --;
             numero *= fatorial;
